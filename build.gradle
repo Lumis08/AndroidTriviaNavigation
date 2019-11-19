@@ -38,6 +38,8 @@ buildscript {
 //        implementation "android.arch.navigation:navigation-fragment-ktx:$navigationVersion"
 //        implementation "android.arch.navigation:navigation-ui-ktx:$navigationVersion"
 
+        classpath "android.arch.navigation:navigation-safe-args-gradle-plugin:$navigationVersion"
+
     }
 }
 
